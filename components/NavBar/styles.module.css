@@ -1,0 +1,184 @@
+.Cv_cont{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-size: 0.9em;
+    font-weight: 500;
+    z-index: 999;
+}
+.Cv_cont > p{
+    color: #fff;
+    margin-right: 5px;  
+}
+.Cv_link > a{
+    color: #fff;
+    margin-left: 10px;
+    padding: 1px 8px;
+    text-decoration: underline;
+    border-radius: 5px;
+}
+
+.NavBar{
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 30, 180);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    
+}
+.NavWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+}
+.NavLogo{
+    cursor: default;
+    color: #fff;
+}
+.line{
+    display: block;
+    padding: 10px 0px;
+    height: 100%;
+    width: 3px;
+    background-color: #fff;
+    color: #fff;
+    margin-left: 20px;
+}
+.SocialRedesFlex{
+    display: flex;
+    margin-left: 5px;
+    padding-inline-start: 0;
+}
+.SocialRedesFlex > li{
+    margin-left: 10px;
+}
+.SocialRedesFlex > li:hover{
+    transform: scale(1.1);
+    transition: transform 150ms linear;
+}
+.SocialCont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+}
+.SocialCont > ul{
+    padding-inline-start: 0;
+}
+.SocialCont > ul > li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.NavMe{
+    display: flex;
+    align-items: center;
+}
+.NavegationLink > ul{
+    display: flex;
+    justify-content: center;
+}
+.NavegationLink > ul > li{
+    margin-left: 10px;
+}
+.NavegationLink > ul > li > a{
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0);
+}
+.NavegationLink > ul > li > a:hover{
+    border: 1px solid #fff;
+}
+.OpenMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+}
+.OpenMenu:hover{
+    cursor: pointer;
+}
+.MenuWrapper{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    display: none;
+    top: 0;
+    padding-top: 40px;
+    background-color: rgba(0,0,0,.5);
+}
+.Menu{
+    background-color: #fff;
+    border-radius: 8px;
+    margin: auto;
+    width: 90%;
+    overflow: hidden;
+    min-width: 100px;
+    max-width: 450px;
+}
+.MenuClose{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.MenuLink{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2em;
+}
+.MenuLink > ul{
+    width: 90%;
+    padding-inline-start: 0;
+}
+.MenuLink > ul > li {
+    width: 100%;
+    display: flex;
+}
+.MenuLink > ul > li > a{
+    width: 100%;
+    color: rgb(0, 30, 180);
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 5px 5px;
+    padding-left: 20px;
+    border-radius: 3px;
+}
+.MenuLink > ul > li > a:hover{
+    background-color: rgba(190, 198, 255, 0.57);
+}
+.MenuLink > ul > li{
+    width: 100%;
+    margin-top: 5px;
+}
+.MenuPd{
+    margin-top: 20px;
+    padding: 3px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MenuPd:hover{
+    cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+    .OpenMenu{
+        display: none;
+    }
+}
+@media screen and (max-width: 767px) {
+    .NavegationLink{
+        display: none;
+    }
+}
+@media screen and (min-width: 500px) {
+    .Menu{
+        margin-right: 20px;
+    }
+    
+}
