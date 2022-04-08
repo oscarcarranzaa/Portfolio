@@ -16,7 +16,7 @@ export function Me (){
                 </div>
                 <div>
                     <div>
-                        <Image src="https://i.ibb.co/qdyDbLS/computer-programming-person-text-monitor-electronics-transparent-png-1085031.png" width="300" height="300"/>
+                        <Image src="/img.jpg" layout='responsive' width="300" alt='Oscar Carranza' height="300"/>
                     </div>
                 </div>
             </div>

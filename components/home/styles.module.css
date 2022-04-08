@@ -15,10 +15,14 @@
     justify-content: space-around;
     font-size: 10px;
 }
+.HomeImg{
+    width: 300px;
+    height: 300px;
+}
 .AvatarMe{
     width: 400px;
     height: 300px;
-    border: 5px solid rgba(0, 30, 180, 1);
+    border: 5px solid rgba(0, 30, 180, 1) !important;
     border-radius: 50%;
     object-fit: cover;
     object-position: top;
@@ -45,18 +49,18 @@
     .SecHome{
         max-height: 750px;
     }
-    
-   .HomeImg{
-       width: 100%;
-       display: flex;
-       justify-content: center;
-   }
-   .AvatarMe{
-    width: 230px;
-    height: 230px;
+    .Home{
+        display: block;
+    }
+    .HomeImg{
+        width: 200px;
+        height: 200px;
+        margin: auto;
     }
     .HomeText{
-        margin-top: 20px;
+        margin: auto;
+        margin-top: 30px;
+        text-align: center;
     }
 }
 @media screen and (max-width: 500px) {

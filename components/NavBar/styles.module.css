@@ -21,6 +21,7 @@
 }
 
 .NavBar{
+    z-index: 99;
     position: sticky;
     top: 0;
     background-color: rgba(0, 30, 180);
@@ -46,7 +47,7 @@
     width: 3px;
     background-color: #fff;
     color: #fff;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .SocialRedesFlex{
     display: flex;
@@ -54,7 +55,7 @@
     padding-inline-start: 0;
 }
 .SocialRedesFlex > li{
-    margin-left: 10px;
+    margin-left: 5px;
 }
 .SocialRedesFlex > li:hover{
     transform: scale(1.1);
@@ -75,6 +76,7 @@
 }
 .NavMe{
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 .NavegationLink > ul{
@@ -166,12 +168,12 @@
 .MenuPd:hover{
     cursor: pointer;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
     .OpenMenu{
         display: none;
     }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .NavegationLink{
         display: none;
     }

@@ -7,7 +7,7 @@ export function HomePage(){
         <section className={styles.SecHome}>
             <div className={styles.Home}>
                 <div className={styles.HomeImg}>
-                    <Image className={styles.AvatarMe} src="https://i.ibb.co/PQX95C6/20210514-104646-3.jpg" layout="responsive" sizes='100wv' width="300" height="300"/>
+                    <Image className={styles.AvatarMe} src="/OC.png" width="300" height="300" layout='responsive' objectPosition='center' alt='Oscar Carranza'/>
                 </div>
                 <div className={styles.HomeTextCont}>
                     <h1 className={styles.HomeText}><span>Oscar Carranza</span><br/>

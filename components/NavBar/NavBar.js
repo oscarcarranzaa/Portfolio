@@ -30,17 +30,17 @@ export function NavBar(){
                     <div className={styles.NavMe}>
                         <h3 className={styles.NavLogo}>CARRANZA</h3>
                         <div className={styles.line}>|</div>
-                        <div>
+                        <div className={styles.n}>
                             <SocialRedes colorEdit="#fff" backgroundEdit="transparent"/>
                         </div>
-                    </div>
-                    <div className={styles.NavegationLink}>
-                        <Navegation/>
                     </div>
                     <div>
                         <Link href='/' locale={showlanguages[0]}>
                             <a>{showlanguages[0]}</a>
                         </Link>
+                    </div>
+                    <div className={styles.NavegationLink}>
+                        <Navegation/>
                     </div>
                     <div className={styles.OpenMenu} title="Menú" onClick={openMenu}>
                         <Bars color="#fff"/>
@@ -89,7 +89,7 @@ export function NavBar(){
                         opacity: 1;
                     }
                 }
-                @media screen and (min-width: 768px) {
+                @media screen and (min-width: 769px) {
                     .show{
                         display: none;
                     }
