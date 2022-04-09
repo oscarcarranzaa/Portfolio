@@ -1,33 +1,33 @@
-import { useState} from "react"
-import { Toggle_langs } from "./Toggle_langs"
-import { Close } from "../Icons/Close"
-import { Navegation } from "./Navegation"
-import { Cv } from "./Cv"
-import { SocialRedes } from "./SocialRedes"
-import Bars from "../Icons/Bars"
+import { useState } from 'react'
+import { Langs } from './Langs'
+import { Close } from '../Icons/Close'
+import { Navegation } from './Navegation'
+import { Cv } from './Cv'
+import { SocialRedes } from './SocialRedes'
+import Bars from '../Icons/Bars'
 
-import styles from "./styles.module.css"
+import styles from './styles.module.css'
 
-export function NavBar(){
-    const [isOpen,setIsOpen] = useState(false);
-    const openMenu= ()=> setIsOpen(!isOpen);
-    const classOpen = isOpen === true ? 
-    "show" :
-    "hide"
-    const OpenMenuClass = isOpen === true ? 
-    'ContMenu' :
-    ''
-    return (
+export function NavBar () {
+  const [isOpen, setIsOpen] = useState(false)
+  const openMenu = () => setIsOpen(!isOpen)
+  const classOpen = isOpen === true
+    ? 'show'
+    : 'hide'
+  const OpenMenuClass = isOpen === true
+    ? 'ContMenu'
+    : ''
+  return (
         <>
         <Cv/>
             <header className={`${styles.NavBar}`}>
                 <div className={styles.NavWrapper}>
                     <div className={styles.NavMe}>
                         <h3 className={styles.NavLogo}>CARRANZA</h3>
-                        
+
                     </div>
                     <div>
-                        <Toggle_langs/>
+                        <Langs/>
                     </div>
                     <div className={styles.NavegationLink}>
                         <Navegation/>
@@ -53,7 +53,7 @@ export function NavBar(){
                                 <SocialRedes colorEdit="#000" backgroundEdit="transparent"/>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </header>
@@ -86,5 +86,5 @@ export function NavBar(){
                 }    
             `}</style>
         </>
-    )
+  )
 }

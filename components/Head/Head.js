@@ -1,7 +1,7 @@
-import Head from "next/head"
+import Head from 'next/head'
 
-export function Headjs({title}){
-    return (
+export function Headjs ({ title }) {
+  return (
         <Head>
         <title>{title}</title>
         <meta name="Author" lang="es" content="Oscar Carranza" />
@@ -9,8 +9,8 @@ export function Headjs({title}){
         <meta name="description" content="Bienvenido a mi portfolio donde podrás conocer un poco más de mí" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
     </Head>
-    )
+  )
 }
 Headjs.defaultProps = {
-    title : "Oscar Carranza"
+  title: 'Oscar Carranza'
 }

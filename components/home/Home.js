@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import { useTranslations } from '../../context/i18nContext'
 import styles from './styles.module.css'
-export function HomePage(){
-    const { t } = useTranslations()
-    return(
+export function HomePage () {
+  const { t } = useTranslations()
+  return (
         <section className={styles.SecHome}>
             <div className={styles.Home}>
                 <div className={styles.HomeImg}>
@@ -16,5 +16,5 @@ export function HomePage(){
                 </div>
             </div>
         </section>
-    )
+  )
 }

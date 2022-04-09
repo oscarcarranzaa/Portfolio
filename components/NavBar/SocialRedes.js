@@ -1,11 +1,11 @@
-import styles from "./styles.module.css"
+import styles from './styles.module.css'
 
-import { GitHub } from "../Icons/GitHub"
-import { Linkedin } from "../Icons/Linkedin.js"
-import { Facebook } from "../Icons/Facebook"
+import { GitHub } from '../Icons/GitHub'
+import { Linkedin } from '../Icons/Linkedin.js'
+import { Facebook } from '../Icons/Facebook'
 
-export function SocialRedes ({colorEdit, backgroundEdit}){
-    return (
+export function SocialRedes ({ colorEdit, backgroundEdit }) {
+  return (
         <>
             <ul className={styles.SocialRedesFlex}>
                 <li>
@@ -19,6 +19,6 @@ export function SocialRedes ({colorEdit, backgroundEdit}){
                 </li>
             </ul>
         </>
-        
-    )
+
+  )
 }
