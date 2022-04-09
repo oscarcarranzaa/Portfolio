@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import { useTranslations } from '../../context/i18nContext'
-import styles from './styles.module.css'
 
 export function Me () {
   const { t } = useTranslations()
