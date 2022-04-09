@@ -1,22 +1,26 @@
 {
-    "NAVEGATION_LINKS": [{
-        "ID": 1,
-        "NAME": "Home",
-        "PATH": "home"
-    },{
-        "ID": 2,
-        "NAME": "About me",
-        "PATH": "about"
-    },{
-        "ID": 3,
-        "NAME": "Formation",
-        "PATH": "formation"
-    },{
-        "ID": 4,
-        "NAME": "Contact",
-        "PATH": "contact"
-    }],
+    "NAVEGATION_LINKS": [
+        {
+            "ID": 1,
+            "NAME": "Home",
+            "PATH": "home"
+        },{
+            "ID": 2,
+            "NAME": "About me",
+            "PATH": "about"
+        },{
+            "ID": 3,
+            "NAME": "Formation",
+            "PATH": "formation"
+        },{
+            "ID": 4,
+            "NAME": "Contact",
+            "PATH": "contact"
+        }
+    ],
     "DOWNLOAD_MY_RESUME": "Download my resume",
+    "es": "Spanish",
+    "en": "English",
     "ABOUT_ME": "About me",
     "FORMATION": "Formation",
     "CONTACT": "Contact",

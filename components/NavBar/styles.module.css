@@ -1,6 +1,7 @@
 .Cv_cont{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(0,0,0);
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
     height: 40px;
@@ -79,6 +80,29 @@
     justify-content: space-between;
     align-items: center;
 }
+.Languages{
+    display: flex;
+    align-items: center;
+    color: #999;
+}
+
+.ContLang{
+    position: absolute;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+}
+.LangI{
+    padding: 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Lang{
+    padding: 20px 20px;
+}
 .NavegationLink > ul{
     display: flex;
     justify-content: center;
@@ -143,7 +167,7 @@
 }
 .MenuLink > ul > li > a{
     width: 100%;
-    color: rgb(0, 30, 180);
+    color: rgb(0, 0, 0);
     font-size: 1.2em;
     font-weight: 500;
     padding: 5px 5px;
@@ -151,7 +175,7 @@
     border-radius: 3px;
 }
 .MenuLink > ul > li > a:hover{
-    background-color: rgba(190, 198, 255, 0.57);
+    background-color: rgba(190, 190, 190, 0.57);
 }
 .MenuLink > ul > li{
     width: 100%;

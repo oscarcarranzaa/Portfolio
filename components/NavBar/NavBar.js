@@ -1,6 +1,5 @@
 import { useState} from "react"
-import { useRouter } from "next/router"
-import Link from "next/link"
+import { Toggle_langs } from "./Toggle_langs"
 import { Close } from "../Icons/Close"
 import { Navegation } from "./Navegation"
 import { Cv } from "./Cv"
@@ -10,10 +9,6 @@ import Bars from "../Icons/Bars"
 import styles from "./styles.module.css"
 
 export function NavBar(){
-    const {locale, locales} = useRouter()
-    
-    const showlanguages  = locales.filter(l => l != locale)
-
     const [isOpen,setIsOpen] = useState(false);
     const openMenu= ()=> setIsOpen(!isOpen);
     const classOpen = isOpen === true ? 
@@ -29,15 +24,10 @@ export function NavBar(){
                 <div className={styles.NavWrapper}>
                     <div className={styles.NavMe}>
                         <h3 className={styles.NavLogo}>CARRANZA</h3>
-                        <div className={styles.line}>|</div>
-                        <div className={styles.n}>
-                            <SocialRedes colorEdit="#fff" backgroundEdit="transparent"/>
-                        </div>
+                        
                     </div>
                     <div>
-                        <Link href='/' locale={showlanguages[0]}>
-                            <a>{showlanguages[0]}</a>
-                        </Link>
+                        <Toggle_langs/>
                     </div>
                     <div className={styles.NavegationLink}>
                         <Navegation/>
