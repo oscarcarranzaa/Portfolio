@@ -1,0 +1,243 @@
+.Cv_cont{
+    background-color: rgb(0,0,0);
+    border-bottom: 1px solid #fff;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-size: 0.9em;
+    font-weight: 500;
+    z-index: 999;
+}
+.Cv_cont > p{
+    color: #fff;
+    margin-right: 5px;  
+}
+.Cv_link > a{
+    color: #fff;
+    margin-left: 10px;
+    padding: 1px 8px;
+    text-decoration: underline;
+    border-radius: 5px;
+}
+
+.NavBar{
+    z-index: 99;
+    position: sticky;
+    top: 0;
+    background-color: rgb(0, 0, 0, .8);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.576);
+    backdrop-filter: saturate(200%) blur(10px);
+    width: 100%;
+    
+}
+.NavWrapper{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-left: calc(2 * 29px);
+    padding-right: calc(2 * 29px);
+
+}
+.NavLogo{
+    cursor: default;
+    width: 100%;
+    color: #fff;
+}
+.line{
+    display: block;
+    padding: 10px 0px;
+    height: 100%;
+    width: 3px;
+    background-color: #fff;
+    color: #fff;
+    margin-left: 10px;
+}
+.SocialRedesFlex{
+    display: flex;
+    margin-left: 5px;
+    padding-inline-start: 0;
+}
+.SocialRedesFlex > li{
+    margin-left: 5px;
+}
+.SocialRedesFlex > li:hover{
+    transform: scale(1.1);
+    transition: transform 150ms linear;
+}
+.SocialCont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+}
+.SocialCont > ul{
+    padding-inline-start: 0;
+}
+.SocialCont > ul > li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.NavMe{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Language: css */
+.Languages{
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+    align-items: center;
+    color: rgb(252, 252, 252);
+}
+.Languages:hover{
+    cursor: pointer;
+}
+.ListLang{
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.ListLang > li{
+   display: flex;
+   margin: auto;
+   margin: 2px;
+}
+.NavegationLink{
+    width: 100%;
+
+}
+.NavegationLink > ul{
+    display: flex;
+    padding-inline-start: 0;
+    justify-content: center;
+}
+.NavegationLink > ul > li{
+    margin-left: 10px;
+}
+.NavegationLink > ul > li > a{
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(255,255,255,0);
+}
+.NavegationLink > ul > li > a:hover{
+    border: 1px solid #fff;
+}
+.OpenMenu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 3px;
+    width: 30%;
+}
+.OpenMenu:hover{
+    cursor: pointer;
+}
+.MenuWrapper{
+    width: 100%;
+    z-index: 99;
+    height: 100vh;
+    position: fixed;
+    display: none;
+    top: 0;
+    padding-top: 40px;
+    background-color: rgba(0,0,0,.5);
+}
+.Menu{
+    background-color: #fff;
+    border-radius: 8px;
+    margin: auto;
+    width: 90%;
+    overflow: hidden;
+    min-width: 100px;
+    max-width: 450px;
+}
+.MenuClose{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.MenuLink{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2em;
+}
+.MenuLink > ul{
+    width: 90%;
+    padding-inline-start: 0;
+}
+.MenuLink > ul > li {
+    width: 100%;
+    display: flex;
+}
+.MenuLink > ul > li > a{
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 5px 5px;
+    padding-left: 20px;
+    border-radius: 3px;
+}
+.MenuLink > ul > li > a:hover{
+    background-color: rgba(190, 190, 190, 0.57);
+}
+.MenuLink > ul > li{
+    width: 100%;
+    margin-top: 5px;
+}
+.MenuPd{
+    margin-top: 20px;
+    padding: 3px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MenuPd:hover{
+    cursor: pointer;
+}
+.Show{
+    display: flex;
+}
+.Hide{
+    display: none;
+}
+@media screen and (min-width: 769px) {
+    .OpenMenu{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .NavegationLink{
+        display: none;
+    }
+    .NavWrapper{
+        padding-left:0;
+        padding-right: 0;
+    }
+    .Lang{
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .Languages{
+        justify-content: center;
+    }
+    .LangI{
+        font-size: 0.8em;
+    }
+}
+@media screen and (min-width: 500px) {
+    .Menu{
+        margin-right: 20px;
+    }
+    
+}

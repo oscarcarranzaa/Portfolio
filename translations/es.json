@@ -1,0 +1,27 @@
+{
+    "NAVEGATION_LINKS": [{
+        "ID": 1,
+        "NAME": "Inicio",
+        "PATH": "home"
+    },{
+        "ID": 2,
+        "NAME": "Acerca de mí",
+        "PATH": "about"
+    },{
+        "ID": 3,
+        "NAME": "Formación",
+        "PATH": "formation"
+    },{
+        "ID": 4,
+        "NAME": "Contacto",
+        "PATH": "contact"
+    }],
+    "DOWNLOAD_MY_RESUME": "Descarga mi hoja de vida",
+    "es": "Español",
+    "en": "Inglés",
+    "ABOUT_ME": "Sobre mi",
+    "FORMATION": "Formación",
+    "CONTACT": "Contacto",
+    "FRONT-END_DEVELOPER": "Desarrollador Front-End",
+    "ABOUT_DESCRIPTION": "Hola, desarrollo productos digitales mediante el uso de las últimas tecnologías, considerando cual sea la mejor para la solución. Enfocado en el desarrollo Front-End y un poco al Back-End. Siempre dispuesto a enfrentarme con nuevos retos y así encontrar la solución a los problemas, si estas interesado puedes contactarme y asi formar parrte de tu equipo."
+}

@@ -1,0 +1,29 @@
+{
+    "NAVEGATION_LINKS": [
+        {
+            "ID": 1,
+            "NAME": "Home",
+            "PATH": "home"
+        },{
+            "ID": 2,
+            "NAME": "About me",
+            "PATH": "about"
+        },{
+            "ID": 3,
+            "NAME": "Formation",
+            "PATH": "formation"
+        },{
+            "ID": 4,
+            "NAME": "Contact",
+            "PATH": "contact"
+        }
+    ],
+    "DOWNLOAD_MY_RESUME": "Download my resume",
+    "es": "Spanish",
+    "en": "English",
+    "ABOUT_ME": "About me",
+    "FORMATION": "Formation",
+    "CONTACT": "Contact",
+    "FRONT-END_DEVELOPER": "Fron-End developer",
+    "ABOUT_DESCRIPTION": "Hello, I develop digital products using the latest technologies, considering which is the best for the solution. Focused on Front-End development and a bit on the Back-End. Always willing to face new challenges and thus find the solution to problems, if you are interested you can contact me and thus be part of your team."
+}
