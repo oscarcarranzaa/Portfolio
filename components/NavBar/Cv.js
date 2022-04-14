@@ -10,7 +10,7 @@ export function Cv () {
             <p>{t('DOWNLOAD_MY_RESUME')}</p>
             <div className={styles.Cv_link}>
                 <Link href="/" locale="en">
-                    <a>CV Hi</a>
+                    <a>CV hola</a>
                 </Link>
             </div>
         </div>
