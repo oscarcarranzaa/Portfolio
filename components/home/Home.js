@@ -1,7 +1,11 @@
+import styles from './styles.module.css'
+
 export function HomePage () {
   return (
         <>
-            <div>hola</div>
+            <section className={styles.Home}>
+                <div>Hello</div>
+            </section>
         </>
   )
 }

@@ -10,6 +10,7 @@ export function Langs () {
 
   return (
     <>
+    <div className={styles.Contlangs}>
       <Link href='/' locale={SHOW_LANGUAGUES[0]}>
         <a className={styles.Languages}>
           <ul className={styles.ListLang}>
@@ -18,6 +19,7 @@ export function Langs () {
           </ul>
         </a>
       </Link>
+    </div>
     </>
   )
 }

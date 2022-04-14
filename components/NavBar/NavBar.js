@@ -12,10 +12,10 @@ export function NavBar () {
   const [isOpen, setIsOpen] = useState(false)
   const openMenu = () => setIsOpen(!isOpen)
   const classOpen = isOpen === true
-    ? 'show'
-    : 'hide'
+    ? styles.Show
+    : styles.Hide
   const OpenMenuClass = isOpen === true
-    ? 'ContMenu'
+    ? styles.ContMenu
     : ''
   return (
         <>
@@ -26,12 +26,14 @@ export function NavBar () {
                         <h3 className={styles.NavLogo}>OSCAR</h3>
 
                     </div>
-                    <div className={styles.NavegationLink}>
+                    <div className={`${styles.NavegationLink} ${styles.FlexCenter}`}>
                         <Navegation/>
                     </div>
                         <Langs/>
-                    <div className={styles.OpenMenu} title="Menú" onClick={openMenu}>
-                        <Bars color="#fff"/>
+                    <div className={styles.OpenMenu} title="Menú">
+                        <div className={`${styles.BarsOpen} ${styles.FlexCenter}`} onClick={openMenu}>
+                            <Bars color="#fff"/>
+                        </div>
                     </div>
                 </div>
                 <div className={`${styles.MenuWrapper} ${classOpen}`}>
@@ -55,34 +57,6 @@ export function NavBar () {
                     </div>
                 </div>
             </header>
-            <style jsx>{`
-                .show{
-                    display: block;
-                    
-                }
-                .hide{
-                    display: none;
-                }
-                .ContMenu{
-                    display: flex;
-                    justify-content: flex-end;
-                    animation: MenuShow 200ms linear;
-                }
-                @keyframes MenuShow{
-                    from{
-                        margin-top: -200px;
-                        opacity: 0;
-                    }to{
-                        margin-top: 0px;
-                        opacity: 1;
-                    }
-                }
-                @media screen and (min-width: 769px) {
-                    .show{
-                        display: none;
-                    }
-                }    
-            `}</style>
         </>
   )
 }

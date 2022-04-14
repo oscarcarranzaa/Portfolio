@@ -21,7 +21,11 @@
     text-decoration: underline;
     border-radius: 5px;
 }
-
+.FlexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .NavBar{
     z-index: 99;
     position: sticky;
@@ -30,7 +34,6 @@
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.576);
     backdrop-filter: saturate(200%) blur(10px);
     width: 100%;
-    
 }
 .NavWrapper{
     display: flex;
@@ -38,7 +41,6 @@
     justify-content: center;
     padding-left: calc(2 * 29px);
     padding-right: calc(2 * 29px);
-
 }
 .NavLogo{
     cursor: default;
@@ -86,19 +88,28 @@
     align-items: center;
 }
 /* Language: css */
-.Languages{
-    display: flex;
-    justify-content: flex-end;
+.Contlangs{
     width: 30%;
-    align-items: center;
+    display: flex;
+}
+.Languages{
     color: rgb(252, 252, 252);
+    display: flex;
+    align-items: center;
+    height: 33px;
+    border-radius: 5px;
+    padding: 3px;
+    margin: auto;
+    border: 1px solid transparent;
+    margin-right: 0;
 }
 .Languages:hover{
+    border: 1px solid #fff;
     cursor: pointer;
 }
 .ListLang{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding-inline-start: 0;
     text-transform: uppercase;
     font-weight: 600;
@@ -110,7 +121,6 @@
 }
 .NavegationLink{
     width: 100%;
-
 }
 .NavegationLink > ul{
     display: flex;
@@ -129,14 +139,27 @@
 .NavegationLink > ul > li > a:hover{
     border: 1px solid #fff;
 }
+.ContMenu{
+    display: flex;
+    justify-content: flex-end;
+    animation: MenuShow 200ms linear;
+}
+@keyframes MenuShow{
+    from{
+        margin-top: -200px;
+        opacity: 0;
+    }to{
+        margin-top: 0px;
+        opacity: 1;
+    }
+}
 .OpenMenu{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 3px;
     width: 30%;
 }
-.OpenMenu:hover{
+.BarsOpen:hover{
     cursor: pointer;
 }
 .MenuWrapper{
@@ -205,13 +228,16 @@
     cursor: pointer;
 }
 .Show{
-    display: flex;
+    display: block;
 }
 .Hide{
     display: none;
 }
 @media screen and (min-width: 769px) {
     .OpenMenu{
+        display: none;
+    }
+    .Show{
         display: none;
     }
 }
@@ -223,12 +249,15 @@
         padding-left:0;
         padding-right: 0;
     }
+    .Languages{
+        margin: auto;
+    }
     .Lang{
         width: 100px;
         display: flex;
         justify-content: center;
     }
-    .Languages{
+    .ListLang{
         justify-content: center;
     }
     .LangI{
