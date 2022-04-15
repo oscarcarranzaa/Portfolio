@@ -1,0 +1,28 @@
+.ImageCard{
+    width: 400px;
+    max-width: 40%;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.PlusNetworks{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background: #00000079;
+    backdrop-filter: blur(5px);
+}
+.PlusNetworksText{
+    font-size: 15px;
+    background-image: radial-gradient(circle at 120.71% 50%, #0040f1 0, #0035e9 16.67%, #0024df 33.33%, #3f00d3 50%, #6900c6 66.67%, #8400b7 83.33%, #9800a7 100%);
+    border-radius: 10px;
+    padding: 0px 10px;
+    color: #fff;
+}
+@media screen and (max-width: 768px){
+    .ImageCard{
+        display: none;
+    }
+}

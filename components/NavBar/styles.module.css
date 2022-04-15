@@ -41,6 +41,8 @@
     justify-content: center;
     padding-left: calc(2 * 29px);
     padding-right: calc(2 * 29px);
+    max-width: 1500px;
+    margin: auto;
 }
 .NavLogo{
     cursor: default;
@@ -55,31 +57,6 @@
     background-color: #fff;
     color: #fff;
     margin-left: 10px;
-}
-.SocialRedesFlex{
-    display: flex;
-    margin-left: 5px;
-    padding-inline-start: 0;
-}
-.SocialRedesFlex > li{
-    margin-left: 5px;
-}
-.SocialRedesFlex > li:hover{
-    transform: scale(1.1);
-    transition: transform 150ms linear;
-}
-.SocialCont {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 20px 20px;
-}
-.SocialCont > ul{
-    padding-inline-start: 0;
-}
-.SocialCont > ul > li{
-    margin-left: 10px;
-    margin-right: 10px;
 }
 .NavMe{
     display: flex;
@@ -226,6 +203,11 @@
 }
 .MenuPd:hover{
     cursor: pointer;
+}
+.SocialCont{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 .Show{
     display: block;

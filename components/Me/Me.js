@@ -1,4 +1,5 @@
 import { useTranslations } from '../../context/i18nContext'
+import { Avatar } from '../home/Avatar'
 
 export function Me () {
   const { t } = useTranslations()
@@ -15,6 +16,7 @@ export function Me () {
                 <div>
                 </div>
             </div>
+            <Avatar/>
         </section>
   )
 }

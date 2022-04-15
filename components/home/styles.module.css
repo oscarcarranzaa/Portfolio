@@ -1,6 +1,149 @@
 .Home{
     width: 100%;
-    height: 100vh;
     margin-top: -100px;
-    background-color: #000133;
+    position: relative;
+    z-index: -1;
+    background: rgb(0, 24, 108);
+    overflow: hidden;
+}
+.HomeBg{
+    position: absolute;
+    width: 200%;
+    z-index: -1;
+    opacity: .5;
+    height: 300%;
+    margin-top: -50%;
+    background:  url('/mi_fondo_skills.svg') repeat;
+    background-size: 300px;
+    animation: move 15s linear infinite;
+}
+@keyframes move{
+    from{
+        transform: translateY(300px);
+        margin-left: -300px;
+    }to{
+        transform: translateY(0px);
+    }
+}
+.BgFront{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(1, 153, 239, 0) 0%, #190063 100%);
+}
+.HomeCont{
+    padding-top: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    max-width: 1500px;
+    padding-bottom: 50px;
+    margin: auto;
+    z-index: 99;
+}
+.Points{
+    display: none;
+}
+.Portada{
+    width: 80%;
+    border: 3px solid rgb(1, 1, 244);
+    display: none;
+}
+.TextPrimary{
+    color: #fff;
+    margin: auto;
+    font-size: 45px;
+}
+.Text{
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(200, 200, 200);
+}
+.Text > a:hover{
+    text-decoration: underline;
+}
+.SocialCont{
+    display: none;
+}
+@media screen and (min-width: 769px){
+    .Me{
+        max-width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .TextPrimary{
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 768px){
+    .HomeCont{
+        align-items: center;
+        flex-direction: column;
+    }
+    .Me{
+        background-color: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(5px) saturate(150%);
+        width: 80%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 15px;
+    }
+    .PointsCont{
+        width: 90%;
+        padding: 10px 0px;
+        margin-bottom: 10px;
+        display: flex;
+    }
+    .Points{
+        position: relative;
+        margin-left: 20px;
+        display: block;
+        width: 10px;
+        height: 10px;
+        background-color: rgb(255, 153, 0);
+        border-radius: 50%;
+    }
+    .Points::before{
+        content: '';
+        position: absolute;
+        left: -20px;
+        width: 10px;
+        height: 10px;
+        background-color: rgb(223, 2, 79);
+        border-radius: 50%;
+    }
+    .Points::after{
+        content: '';
+        position: absolute;
+        left: 20px;
+        width: 10px;
+        height: 10px;
+        background-color: rgb(19, 193, 3);
+        border-radius: 50%;
+    }
+    .Portada{
+        display: block;
+    }
+    .TextPrimary{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .Text{
+        width: 80%;
+        font-size: 15px;
+    }
+    .SocialCont{
+        display: block;
+    }
+}
+@media screen and (max-width: 400px){
+    .TextPrimary{
+        font-size: 22px;
+    }
+    .Text{
+        font-size: 13px;
+    }
 }

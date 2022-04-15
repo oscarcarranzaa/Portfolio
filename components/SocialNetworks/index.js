@@ -4,7 +4,7 @@ import { GitHub } from '../Icons/GitHub'
 import { Linkedin } from '../Icons/Linkedin.js'
 import { Facebook } from '../Icons/Facebook'
 
-export function SocialRedes ({ colorEdit, backgroundEdit }) {
+export function SocialNetworks ({ colorEdit, backgroundEdit }) {
   return (
         <>
             <ul className={styles.SocialRedesFlex}>
