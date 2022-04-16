@@ -1,0 +1,69 @@
+.TitleCont{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+}
+.AboutCont{
+    width: 90%;
+    margin: auto;
+}
+.MyTimeLine{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.TimeLineCont{
+    display: flex;
+    flex-direction: column;
+}
+.TimeItem{
+    display: flex;
+}
+.ContTime{
+    background: rgb(79, 79, 79);
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #fff;
+}
+.ContTime:before{
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    background: #0048b3;
+}
+.ContTime:after{
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-top: -8px;
+    margin-left: -8px;
+    background: #00b380;
+}
+.TimeDateCont{
+    display: flex;
+    align-items: center;
+}
+.TimeDate{
+    margin-right: 10px;
+}
+.Time{
+    width: 100%;
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+    padding-left: 20px;
+}
+.TextTime{
+    font-size: 14px;
+    color: rgb(200, 200, 200);
+    margin: 0;
+    padding-left: 20px;
+    width: 40ch;
+    padding-bottom: 10px;
+}

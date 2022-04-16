@@ -1,8 +1,10 @@
 import Image from 'next/image'
+import { useTranslations } from '../../context/i18nContext'
 import { SocialNetworks } from '../SocialNetworks'
 import { Avatar } from './Avatar'
 import styles from './styles.module.css'
 export function HomePage () {
+  const { t } = useTranslations()
   return (
     <>
       <section id='home' className={styles.Home}>
@@ -17,13 +19,15 @@ export function HomePage () {
               <div className={styles.Portada}>
                 <Image src='/guwpo.jpg' layout='responsive' objectFit='cover' width='300px' height='200px'></Image>
               </div>
-              <h3 className={styles.TextPrimary}>Oscar A. Carranza</h3>
-              <p className={styles.Text}>Hola soy desarrollador Front-End, actualmente estudiando ING. en sistemas en la <a href='https://www.unah.edu.hn' target='_blank' rel='noreferrer'>Universidad Nacional Autónoma de Honduras</a>.</p>
+              <div className={styles.TextCont}>
+                <h3 className={styles.TextPrimary}>Oscar A. Carranza</h3>
+                <p className={styles.Text}>{t('TEXT_ME')} <a href='https://www.unah.edu.hn' target='_blank' rel='noreferrer'>{t('UNAH')}</a>.</p>
+              </div>
               <div className={styles.SocialCont}>
                 <SocialNetworks colorEdit='#fff'/>
               </div>
             </div>
-            <Avatar/>
+            <Avatar Nextwork={t('SOCIAL_MEDIA')}/>
           </div>
       </section>
     </>

@@ -19,9 +19,33 @@
     "DOWNLOAD_MY_RESUME": "Descarga mi hoja de vida",
     "es": "Español",
     "en": "Inglés",
-    "ABOUT_ME": "Sobre mi",
+    "ABOUT_ME": "Acerca de mí",
     "FORMATION": "Formación",
     "CONTACT": "Contacto",
     "FRONT-END_DEVELOPER": "Desarrollador Front-End",
-    "ABOUT_DESCRIPTION": "Hola, desarrollo productos digitales mediante el uso de las últimas tecnologías, considerando cual sea la mejor para la solución. Enfocado en el desarrollo Front-End y un poco al Back-End. Siempre dispuesto a enfrentarme con nuevos retos y así encontrar la solución a los problemas, si estas interesado puedes contactarme y asi formar parrte de tu equipo."
+    "SOCIAL_MEDIA": "Redes Sociales",
+    "TEXT_ME": "Hola soy desarrollador Front-End, actualmente estudiando ING. en sistemas en la",
+    "UNAH": "Universidad Nacional Autónoma de Honduras",
+    "ABOUT_DESCRIPTION": "Hola, desarrollo productos digitales mediante el uso de las últimas tecnologías, considerando cual sea la mejor para la solución. Enfocado en el desarrollo Front-End y un poco al Back-End. Siempre dispuesto a enfrentarme con nuevos retos y así encontrar la solución a los problemas, si estas interesado puedes contactarme y asi formar parrte de tu equipo.",
+    "TIME_LINE": [{
+        "ID": 1,
+        "DATE": "31/08/2002",
+        "TITLE": "Mi nacimiento",
+        "DESCRIPTION": "Una nueva lucha comienza."
+    },{
+        "ID": 2,
+        "DATE": "15/02/2007",
+        "TITLE": "Comienzo la prepa",
+        "DESCRIPTION": "Empiezo aprender las vocales, contar y dibujar."
+    },{
+        "ID": 3,
+        "DATE": "15/02/2008",
+        "TITLE": "La escuela",
+        "DESCRIPTION": "En la escuela aprendí muchas cosas necesarias en la vida (leer, escribir, operaciones matemáticas, etc)."
+    },{
+        "ID": 4,
+        "DATE": "15/02/2013",
+        "TITLE": "El colegio",
+        "DESCRIPTION": "Aca aprendí cosas mas avanzadas "
+    }]
 }

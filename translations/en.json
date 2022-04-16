@@ -25,5 +25,24 @@
     "FORMATION": "Formation",
     "CONTACT": "Contact",
     "FRONT-END_DEVELOPER": "Fron-End developer",
-    "ABOUT_DESCRIPTION": "Hello, I develop digital products using the latest technologies, considering which is the best for the solution. Focused on Front-End development and a bit on the Back-End. Always willing to face new challenges and thus find the solution to problems, if you are interested you can contact me and thus be part of your team."
+    "SOCIAL_MEDIA": "Social Medida",
+    "TEXT_ME": "Hi, I'm a Front-End developer, currently studying ING. in systems at the",
+    "UNAH": "National Autonomous University of Honduras",
+    "ABOUT_DESCRIPTION": "Hello, I develop digital products using the latest technologies, considering which is the best for the solution. Focused on Front-End development and a bit on the Back-End. Always willing to face new challenges and thus find the solution to problems, if you are interested you can contact me and thus be part of your team.",
+    "TIME_LINE": [{
+        "ID": 1,
+        "DATE": "31/08/2002",
+        "TITLE": "Mi nacimiento",
+        "DESCRIPTION": "Una nueva lucha comienza."
+    },{
+        "ID": 2,
+        "DATE": "15/02/2007",
+        "TITLE": "Comienzo la prepa",
+        "DESCRIPTION": "Empiezo aprender las vocales, contar y dibujar."
+    },{
+        "ID": 3,
+        "DATE": "15/02/2008",
+        "TITLE": "La escuela",
+        "DESCRIPTION": "En la escuela aprendí muchas cosas necesarias en la vida (leer, escribir, operaciones matemáticas, etc)."
+    }]
 }

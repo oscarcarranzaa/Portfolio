@@ -45,7 +45,7 @@ export function NavBar () {
                                 </div>
                             </div>
                             <div>
-                                <div className={styles.MenuLink}>
+                                <div className={styles.MenuLink} onClick={openMenu}>
                                     <Navegation/>
                                 </div>
                             </div>
