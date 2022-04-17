@@ -26,7 +26,7 @@ export function HomePage () {
                 <p className={styles.Text}>{t('TEXT_ME')} <a href='https://www.unah.edu.hn' target='_blank' rel='noreferrer'>{t('UNAH')}</a>.</p>
               </div>
               <div className={styles.SocialCont}>
-                <SocialMedia colorEdit='#fff'/>
+                <SocialMedia colorEdit='#fff' backgroundEdit='transparent'/>
               </div>
             </div>
             <Avatar Network={t('SOCIAL_MEDIA')}/>
