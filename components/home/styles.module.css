@@ -58,15 +58,16 @@
 .Text{
     font-size: 20px;
     font-weight: 300;
-    color: rgb(200, 200, 200);
+    color: rgb(180, 180, 180);
 }
 .Text > a:hover{
     text-decoration: underline;
+    color: #fff;
 }
 .SocialCont{
     display: none;
 }
-@media screen and (min-width: 769px){
+@media screen and (min-width: 768px){
     .Me{
         max-width: 50%;
         display: flex;
@@ -135,7 +136,7 @@
         margin-top: 20px;
     }
     .Text{
-        font-size: 15px;
+        font-size: 18px;
     }
     .SocialCont{
         display: block;
