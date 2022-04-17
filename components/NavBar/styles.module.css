@@ -10,16 +10,18 @@
     font-weight: 500;
     z-index: 999;
 }
-.Cv_cont > p{
-    color: #fff;
-    margin-right: 5px;  
-}
 .Cv_link > a{
-    color: #fff;
-    margin-left: 10px;
-    padding: 1px 8px;
-    text-decoration: underline;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(200, 200, 200);
     border-radius: 5px;
+}
+.Cv_link > a:hover {
+    color: #fff;
+}
+.Cv_link > a > svg{
+    transform: rotate(-90deg);
 }
 .FlexCenter{
     display: flex;
@@ -60,13 +62,13 @@
 }
 .NavMe{
     display: flex;
-    width: 30%;
+    width: 20%;
     justify-content: space-between;
     align-items: center;
 }
 /* Language: css */
 .Contlangs{
-    width: 30%;
+    width: 20%;
     display: flex;
 }
 .Languages{
@@ -134,7 +136,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 30%;
+    width: 20%;
 }
 .BarsOpen:hover{
     cursor: pointer;
@@ -233,6 +235,9 @@
     }
     .Languages{
         margin: auto;
+    }
+    .Contlangs{
+        width: 50%;
     }
     .Lang{
         width: 100px;

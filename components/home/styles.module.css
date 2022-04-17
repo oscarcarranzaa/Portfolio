@@ -7,7 +7,7 @@
 }
 .HomeBg{
     position: absolute;
-    width: 200%;
+    width: 300%;
     opacity: .5;
     height: 300%;
     margin-top: -50%;
@@ -58,7 +58,7 @@
 .Text{
     font-size: 20px;
     font-weight: 300;
-    color: rgb(180, 180, 180);
+    color: rgb(200, 200, 200);
 }
 .Text > a:hover{
     text-decoration: underline;
@@ -82,6 +82,9 @@
     .HomeCont{
         align-items: center;
         flex-direction: column;
+    }
+    .HomeBg{
+        margin-top: -80%;
     }
     .Me{
         background-color: rgba(0, 0, 0, 0.5);
@@ -147,6 +150,6 @@
         font-size: 22px;
     }
     .Text{
-        font-size: 13px;
+        font-size: 15px;
     }
 }

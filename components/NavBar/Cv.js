@@ -1,5 +1,6 @@
-import { useTranslations } from '../../context/i18nContext'
 import Link from 'next/link'
+import { useTranslations } from '../../context/i18nContext'
+import { Arrow } from '../Icons/arrow'
 
 import styles from './styles.module.css'
 
@@ -8,10 +9,9 @@ export function Cv () {
   return (
         <>
         <div className={styles.Cv_cont}>
-            <p>{t('DOWNLOAD_MY_RESUME')}</p>
             <div className={styles.Cv_link}>
                 <Link href="/" locale="en">
-                    <a>CV ➡</a>
+                    <a><span>{t('DOWNLOAD_MY_RESUME')}</span><Arrow color='#fff'/></a>
                 </Link>
             </div>
         </div>
