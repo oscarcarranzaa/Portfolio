@@ -23,7 +23,7 @@ export function NavBar () {
             <header className={`${styles.NavBar}`}>
                 <div className={styles.NavWrapper}>
                     <div className={styles.NavMe}>
-                        <h3 className={styles.NavLogo}>OSCAR</h3>
+                        <a href='#home' className={styles.NavLogo}>OSCAR</a>
 
                     </div>
                     <div className={`${styles.NavegationLink} ${styles.FlexCenter}`}>

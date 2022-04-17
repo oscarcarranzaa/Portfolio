@@ -1,16 +1,16 @@
 {
     "NAVEGATION_LINKS": [{
         "ID": 1,
-        "NAME": "Inicio",
-        "PATH": "home"
-    },{
-        "ID": 2,
         "NAME": "Acerca de mí",
         "PATH": "about"
     },{
+        "ID": 2,
+        "NAME": "Proyectos",
+        "PATH": "projects"
+    },{
         "ID": 3,
-        "NAME": "Formación",
-        "PATH": "formation"
+        "NAME": "Habilidades",
+        "PATH": "skills"
     },{
         "ID": 4,
         "NAME": "Contacto",
