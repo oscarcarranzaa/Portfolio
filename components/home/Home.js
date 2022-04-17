@@ -1,8 +1,10 @@
 import Image from 'next/image'
 import { useTranslations } from '../../context/i18nContext'
-import { SocialNetworks } from '../SocialNetworks'
+import { SocialMedia } from '../SocialMedia'
 import { Avatar } from './Avatar'
+
 import styles from './styles.module.css'
+
 export function HomePage () {
   const { t } = useTranslations()
   return (
@@ -24,10 +26,10 @@ export function HomePage () {
                 <p className={styles.Text}>{t('TEXT_ME')} <a href='https://www.unah.edu.hn' target='_blank' rel='noreferrer'>{t('UNAH')}</a>.</p>
               </div>
               <div className={styles.SocialCont}>
-                <SocialNetworks colorEdit='#fff'/>
+                <SocialMedia colorEdit='#fff'/>
               </div>
             </div>
-            <Avatar Nextwork={t('SOCIAL_MEDIA')}/>
+            <Avatar Network={t('SOCIAL_MEDIA')}/>
           </div>
       </section>
     </>

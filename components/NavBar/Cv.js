@@ -1,6 +1,7 @@
-import styles from './styles.module.css'
 import { useTranslations } from '../../context/i18nContext'
 import Link from 'next/link'
+
+import styles from './styles.module.css'
 
 export function Cv () {
   const { t } = useTranslations()

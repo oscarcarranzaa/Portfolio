@@ -3,10 +3,10 @@ import { Langs } from './Langs'
 import { Close } from '../Icons/Close'
 import { Navegation } from './Navegation'
 import { Cv } from './Cv'
+import { SocialMedia } from '../SocialMedia/'
 import Bars from '../Icons/Bars'
 
 import styles from './styles.module.css'
-import { SocialNetworks } from '../SocialNetworks/'
 
 export function NavBar () {
   const [isOpen, setIsOpen] = useState(false)
@@ -50,7 +50,7 @@ export function NavBar () {
                                 </div>
                             </div>
                             <div className={styles.SocialCont}>
-                                <SocialNetworks colorEdit="#000" backgroundEdit="transparent"/>
+                                <SocialMedia colorEdit="#000" backgroundEdit="transparent"/>
                             </div>
                         </div>
 

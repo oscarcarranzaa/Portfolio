@@ -1,10 +1,10 @@
-import styles from './styles.module.css'
-
 import { GitHub } from '../Icons/GitHub'
 import { Linkedin } from '../Icons/Linkedin.js'
 import { Facebook } from '../Icons/Facebook'
 
-export function SocialNetworks ({ colorEdit, backgroundEdit }) {
+import styles from './styles.module.css'
+
+export function SocialMedia ({ colorEdit, backgroundEdit }) {
   return (
         <>
             <ul className={styles.SocialRedesFlex}>

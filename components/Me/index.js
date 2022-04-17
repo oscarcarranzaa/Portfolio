@@ -1,4 +1,5 @@
 import { useTranslations } from '../../context/i18nContext'
+
 import styles from './styles.module.css'
 
 export function Me () {
