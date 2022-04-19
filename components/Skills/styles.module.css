@@ -1,0 +1,46 @@
+.Skills{
+    padding: 50px 0px;
+}
+.SkillsTitle{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.SkillsContText{
+    display: flex;
+    align-items: center;
+}
+.SkillsCont{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 30% 50%;
+}
+.SkillsIconCont > ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px 50px;
+}
+.SkillsIconCont > ul > li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.SkillsIconCont > ul > li > div {
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.1s;
+}
+.SkillsIconCont > ul > li > div:hover {
+    transform: scale(1.1);
+}
+.SkillsIconCont > ul > li > div > svg {
+    width: 60px;
+    height: 60px;
+}
+.SkillsIconCont > ul > li > div > span {
+    font-size: 13px;
+    display: block;
+}

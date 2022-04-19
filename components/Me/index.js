@@ -1,4 +1,15 @@
 import { useTranslations } from '../../context/i18nContext'
+import { CSS3 } from '../Icons/CSS3'
+import { Expressjs } from '../Icons/Express'
+import { HTML5 } from '../Icons/HTML5'
+import { Javascript } from '../Icons/Javascript'
+import { Mongodb } from '../Icons/Mongodb'
+import { Nextjs } from '../Icons/Nextjs'
+import { Nodejs } from '../Icons/Nodejs'
+import { Reactjs } from '../Icons/Reactjs'
+import { Tailwindcss } from '../Icons/Tailwindcss'
+import { Typescript } from '../Icons/Typescript'
+import { Vitejs } from '../Icons/vitejs'
 
 import styles from './styles.module.css'
 
@@ -15,6 +26,17 @@ export function Me () {
                     <p> Hola, soy desarrollador en Javascript. me apasiona mucho la programación es por eso que todos los días aprendo algo nuevo y disfruto el momento cuando estoy programando, eso me hace llevar al maximo mi imaginacion y ser muy creativo. Espero poder formar parte de tu equipo o proyecto...</p>
                 </div>
                 <div className={styles.MyTimeLine}>
+                    <HTML5/>
+                    <CSS3/>
+                    <Javascript/>
+                    <Typescript/>
+                    <Reactjs/>
+                    <Nextjs/>
+                    <Vitejs/>
+                    <Tailwindcss/>
+                    <Nodejs/>
+                    <Expressjs/>
+                    <Mongodb/>
                     <div className={styles.TimeLineCont}>
                        {TIME_LINE_TRANSLATIONS.map((TIME_I) => {
                          return (
