@@ -9,6 +9,7 @@ import { Tailwindcss } from '../Icons/Tailwindcss'
 import { Nodejs } from '../Icons/Nodejs'
 import { Expressjs } from '../Icons/Express'
 import { Mongodb } from '../Icons/Mongodb'
+import { StyledComponent } from '../Icons/Styled-component'
 
 export function Technologies () {
     return (
@@ -22,6 +23,7 @@ export function Technologies () {
                 <li><div><Nextjs/><span>Nextjs</span></div></li>
                 <li><div><Vitejs/><span>Vite</span></div></li>
                 <li><div><Tailwindcss/><span>Tailwind</span></div></li>
+                <li><div><StyledComponent/><span>Styled Components</span></div></li>
                 <li><div><Nodejs/><span>Nodejs</span></div></li>
                 <li><div><Expressjs/><span>Express</span></div></li>
                 <li><div><Mongodb/><span>Mongodb</span></div></li>

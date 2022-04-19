@@ -1,5 +1,6 @@
 .Skills{
     padding: 50px 0px;
+    padding-bottom: 200px;
 }
 .SkillsTitle{
     display: flex;
@@ -9,11 +10,13 @@
 .SkillsContText{
     display: flex;
     align-items: center;
+    font-size: 20px;
+    padding-right: 50px;
 }
 .SkillsCont{
     display: grid;
     justify-content: center;
-    grid-template-columns: 30% 50%;
+    grid-template-columns: 40% 50%;
 }
 .SkillsIconCont > ul{
     display: flex;
@@ -43,4 +46,21 @@
 .SkillsIconCont > ul > li > div > span {
     font-size: 13px;
     display: block;
+}
+@media screen and (max-width: 768px) {
+    .SkillsTitle{
+        margin-bottom: 0px;
+    }
+    .SkillsCont{
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+    .SkillsContText{
+        margin-bottom: 50px;
+        padding-right: 0px;
+    }
+    .SkillsIconCont > ul {
+        justify-content: center;
+    }
 }
