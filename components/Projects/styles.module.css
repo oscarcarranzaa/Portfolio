@@ -1,0 +1,59 @@
+.ProjectsTitle{
+    display: flex;
+    justify-content: center;
+}
+.ProjectsSlider{
+    margin: auto;
+    width: 90%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.ProjectsItems{
+    display: none;
+    grid-template-columns: 40% 60%;
+}
+.ProjectsImage{
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.ProjectsChanges{
+    display: flex;
+    justify-content: flex-end;
+}
+.ProjectsArrow{
+    display: flex;
+    gap: 30px;
+}
+.BtnNextProject{
+    padding: 10px;
+    background-color: #0f0096;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.BtnNextProject:nth-child(1){
+    transform: rotate(180deg);
+}
+.none{
+    display: none;
+    visibility: hidden;
+    transition: visibility 2s;
+}
+.visible{
+    display: grid;
+    animation: vie 500ms ease;
+}
+@keyframes vie{
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}
+@media screen and (max-width: 768px){
+    .ProjectsItems{
+        grid-template-columns: auto;
+    }
+}
