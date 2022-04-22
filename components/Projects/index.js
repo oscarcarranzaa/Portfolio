@@ -61,22 +61,25 @@ export function Projects () {
                    return(
                         <div key={project.id} className={`${styles.ProjectsItems} project`}>
                             <div className={styles.ProjectInfo}>
-                                <h3><a className={styles.ProjectName} href={project.url} target="_blank" rel="noreferer">{project.name}</a></h3>
-                                <div><a className={styles.ProjectSource} href={project.repo} target="_blank" rel="noreferer">Codigo fuente</a></div>
-                                    <div className={styles.TechnologiesIconCont}>Creado con:
+                                <h3>
+                                    <a className={styles.ProjectName} href={project.url} target="_blank" rel="noreferer">{project.name}</a>
+                                </h3>
+                                <div>
+                                    <a className={styles.ProjectSource} href={project.repo} target="_blank" rel="noreferer">Codigo fuente</a>
+                                </div>
+                                <div className={styles.TechnologiesIconCont}>Creado con:
                                     <ul className={styles.ContTechnologies}>
-                                        {projects[index].map((t, index) => {
-                                            return (
-                                                <li key={index}>
-                                                    <div>
-                                                        <img  className={styles.IconTechnologies} src={t.icon}/><span>{t.name}</span>
-                                                    </div>
-                                                   
-                                                </li>
-                                             )
-                                        })}
-                                </ul></div>
-                                
+                                    {projects[index].map((t, index) => {
+                                        return (
+                                            <li key={index}>
+                                                <div>
+                                                    <img  className={styles.IconTechnologies} src={t.icon}/><span>{t.name}</span>
+                                                </div>
+                                            </li>
+                                        )
+                                    })}
+                                    </ul>
+                                </div>            
                             </div>
                             <div className={styles.ContProjectsImage}>
                                     <div className={styles.ProjectsImage}>
@@ -84,10 +87,9 @@ export function Projects () {
                                             <Image className={styles.ProjectsImae} src={project.image} layout="responsive" width="350px" height="200px" objectFit="cover"></Image>
                                         </a> 
                                     </div>
-
                             </div>
                         </div>
-                   )
+                    )
                 })}
             </div>
             <div className={styles.ProjectsChanges}>

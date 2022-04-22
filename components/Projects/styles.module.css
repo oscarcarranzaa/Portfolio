@@ -6,7 +6,7 @@
     display: flex;
     margin-bottom: 40px;
     justify-content: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 .ProjectsSlider{
     margin: auto;
@@ -96,7 +96,7 @@
     transform: scale(1.01);
 }
 .ProjectName{
-    font-size: 30px;
+    font-size: 20px;
 }
 .ProjectSource{
     color: #0f0096;
@@ -153,6 +153,9 @@
     }
 }
 @media screen and (max-width: 768px){
+    .ProjectsSlider{
+        width: 95%;
+    }
     .ProjectsItems{
         grid-template-columns: auto;
     }
