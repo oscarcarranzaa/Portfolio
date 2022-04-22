@@ -46,6 +46,7 @@
 .Portada{
     width: 80%;
     border: 3px solid rgb(1, 1, 244);
+
     display: none;
 }
 .TextCont{
