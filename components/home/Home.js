@@ -19,7 +19,7 @@ export function HomePage () {
                 <div className={styles.Points}></div>
               </div>
               <div className={styles.Portada}>
-                <Image src='/guwpo.jpg' layout='responsive' objectFit='cover' width='300px' height='200px'></Image>
+                <Image src='/AMIGA_MAYLLIN.jpg' layout='responsive' objectFit='cover' objectPosition='top' width='300px' height='300px'></Image>
               </div>
               <div className={styles.TextCont}>
                 <h3 className={styles.TextPrimary}>Oscar A. Carranza</h3>

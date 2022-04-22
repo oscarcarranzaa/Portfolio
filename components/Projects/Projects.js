@@ -2,39 +2,37 @@ export const Pro =
 [
     {
         "id": 1,
-        "name": "Blog",
-        "url": "https://jwplayer.com",
-        "repo": "https://github.com",
-        "image": "/Blog.png",
-        "technologies": [
-            "Reactjs",
-            "Vite",
-            "Nodejs",
-            "Styled-components"
+        "name": "Mi portafolio",
+        "url": "https://my-portfolio-vercel-7irh.vercel.app/",
+        "repo": "https://github.com/os-carranza/Portfolio",
+        "image": "/blog.png",
+        "technologies": [{
+            "name": "React",
+            "icon": "/icons/react.svg",
+        },{
+            "name": "Nextjs",
+            "icon": "/icons/nextjs-2.svg",
+        }
         ]
     },{
         "id": 2,
-        "name": "Diario catracho",
-        "url": "https://jwplayer.com",
-        "repo": "https://github.com",
+        "name": "Supra chat",
+        "url": "https://suprachat.net",
+        "repo": "https://github.com/ThyDevourer/suprachat-frontend",
         "image": "/suprachat.webp",
-        "technologies": [
-            "Reactjs",
-            "Vite",
-            "Nodejs",
-            "Styled-components"
-        ]
-    },{
-        "id": 3,
-        "name": "Stream hub",
-        "url": "https://jwplayer.com",
-        "repo": "https://github.com",
-        "image": "/Blog.png",
-        "technologies": [
-            "Reactjs",
-            "Vite",
-            "Nodejs",
-            "Styled-components"
+        "technologies": [{
+            "name": "React",
+            "icon": "/icons/react.svg",
+        },{
+            "name": "Vite",
+            "icon": "/icons/vitejs.svg",
+        },{
+            "name": "tailwind",
+            "icon": "/icons/tailwindcss.svg",
+        },{
+            "name": "Nodejs",
+            "icon": "/icons/nodejs.svg",
+        }
         ]
     }
 ]

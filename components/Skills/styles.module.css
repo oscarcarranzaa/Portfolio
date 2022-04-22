@@ -1,11 +1,11 @@
 .Skills{
     padding: 50px 0px;
-    padding-bottom: 200px;
 }
 .SkillsTitle{
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
+    font-size: 25px;
 }
 .SkillsContText{
     display: flex;
@@ -18,32 +18,32 @@
     justify-content: center;
     grid-template-columns: 40% 50%;
 }
-.SkillsIconCont > ul{
+.TechnologiesIconCont > ul{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 50px 50px;
 }
-.SkillsIconCont > ul > li {
+.TechnologiesIconCont > ul > li {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.SkillsIconCont > ul > li > div {
+.TechnologiesIconCont > ul > li > div {
     width: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
     transition: transform 0.1s;
 }
-.SkillsIconCont > ul > li > div:hover {
+.TechnologiesIconCont > ul > li > div:hover {
     transform: scale(1.1);
 }
-.SkillsIconCont > ul > li > div > svg {
+.TechnologiesIconCont > ul > li > div > svg {
     width: 60px;
     height: 60px;
 }
-.SkillsIconCont > ul > li > div > span {
+.TechnologiesIconCont > ul > li > div > span {
     font-size: 13px;
     display: block;
 }
@@ -60,7 +60,7 @@
         margin-bottom: 50px;
         padding-right: 0px;
     }
-    .SkillsIconCont > ul {
+    .TechnologiesIconCont > ul {
         justify-content: center;
     }
 }

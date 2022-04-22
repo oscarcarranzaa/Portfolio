@@ -7,7 +7,7 @@ export function Avatar ({ Network }) {
   return (
         <>
             <div className={styles.ImageCard}>
-                <Image src='/Image.jpg' width='500px' height='500px' layout='responsive' objectFit='cover'></Image>
+                <Image src='/AMIGA_MAYLLIN_EN_ANIME.jpg' width='500px' height='500px' layout='responsive' objectFit='cover'></Image>
                 <div className={styles.PlusNetworks}>
                   <h4 className={styles.PlusNetworksText}>{Network}</h4>
                   <div>

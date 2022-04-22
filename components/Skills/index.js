@@ -5,13 +5,13 @@ export function Skills () {
         <>
         <section id='skills' className={styles.Skills}>
             <div className={styles.SkillsTitle}>
-                <h1>SKILLS</h1>
+                <h2>SKILLS</h2>
             </div>
             <div className={styles.SkillsCont}>
                 <div className={styles.SkillsContText}>
                     <p className={styles.SkillsText}>Estas son las tecnologias que suelo usar en mis proyectos.</p>
                 </div>
-                <div className={styles.SkillsIconCont}>
+                <div className={styles.TechnologiesIconCont}>
                     <Technologies/>
                 </div>
             </div>
