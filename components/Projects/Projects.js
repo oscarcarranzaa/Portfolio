@@ -5,7 +5,7 @@ export const Pro =
         "name": "Mi portafolio",
         "url": "https://my-portfolio-vercel-7irh.vercel.app/",
         "repo": "https://github.com/os-carranza/Portfolio",
-        "image": "/blog.png",
+        "image": "/Blog.png",
         "technologies": [{
             "name": "React",
             "icon": "/icons/react.svg",
