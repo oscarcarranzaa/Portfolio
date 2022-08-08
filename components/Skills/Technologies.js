@@ -1,33 +1,93 @@
-import { HTML5 } from '../Icons/HTML5'
-import { CSS3 } from '../Icons/CSS3'
-import { Javascript } from '../Icons/Javascript'
-import { Typescript } from '../Icons/Typescript'
-import { Reactjs } from '../Icons/Reactjs'
-import { Nextjs } from '../Icons/Nextjs'
-import { Vitejs } from '../Icons/vitejs'
-import { Tailwindcss } from '../Icons/Tailwindcss'
-import { Nodejs } from '../Icons/Nodejs'
-import { Expressjs } from '../Icons/Express'
-import { Mongodb } from '../Icons/Mongodb'
-import { StyledComponent } from '../Icons/Styled-component'
+import CssIcon from "../Icons/Css3";
+import ExpressIcon from "../Icons/Express";
+import GitIcon from "../Icons/Git";
+import HtmlIcon from "../Icons/Html5";
+import JavascriptIcon from "../Icons/Javascript";
+import Mongodb from "../Icons/Mongodb";
+import NextjsIcon from "../Icons/Nextjs";
+import NodejsIcon from "../Icons/Nodejs";
+import ReactIcon from "../Icons/React";
+import TailwindcssIcon from "../Icons/Tailwindcss";
+import TypescriptIcon from "../Icons/Typescript";
+import ViteIcon from "../Icons/Vite";
 
-export function Technologies () {
-    return (
-        <>
-            <ul>
-                <li><div><HTML5/><span>HTML</span></div></li>
-                <li><div><CSS3/><span>CSS</span></div></li>
-                <li><div><Javascript/><span>Javascript</span></div></li>
-                <li><div><Typescript/><span>Typescript</span></div></li>
-                <li><div><Reactjs/><span>React</span></div></li>
-                <li><div><Nextjs/><span>Nextjs</span></div></li>
-                <li><div><Vitejs/><span>Vite</span></div></li>
-                <li><div><Tailwindcss/><span>Tailwind</span></div></li>
-                <li><div><StyledComponent/><span>Styled Components</span></div></li>
-                <li><div><Nodejs/><span>Nodejs</span></div></li>
-                <li><div><Expressjs/><span>Express</span></div></li>
-                <li><div><Mongodb/><span>Mongodb</span></div></li>
-            </ul>
-        </>
-    )
+export function Technologies() {
+  const tech = [
+    {
+      id: 1,
+      name: "HTML",
+      icon: <HtmlIcon fill={"#D84924"} />,
+    },
+    {
+      id: 2,
+      name: "CSS 3",
+      icon: <CssIcon fill={"#2449D8"} />,
+    },
+    {
+      id: 3,
+      name: "Javascript",
+      icon: <JavascriptIcon fill={"#EAD41C"} />,
+    },
+    {
+      id: 4,
+      name: "Typescript",
+      icon: <TypescriptIcon fill={"#2F72BC"} />,
+    },
+    {
+      id: 5,
+      name: "React",
+      icon: <ReactIcon fill={"#5CCFEE"} />,
+    },
+    {
+      id: 6,
+      name: "Nextjs",
+      icon: <NextjsIcon />,
+    },
+    {
+      id: 7,
+      name: "Vite",
+      icon: <ViteIcon />,
+    },
+    {
+      id: 8,
+      name: "Tailwid css",
+      icon: <TailwindcssIcon />,
+    },
+    {
+      id: 9,
+      name: "Nodejs",
+      icon: <NodejsIcon fill={"#4F9640"} />,
+    },
+    {
+      id: 10,
+      name: "Express",
+      icon: <ExpressIcon />,
+    },
+    {
+      id: 11,
+      name: "Mongo Db",
+      icon: <Mongodb />,
+    },
+    {
+      id: 12,
+      name: "Git",
+      icon: <GitIcon />,
+    },
+  ];
+  return (
+    <>
+      <ul>
+        {tech.map((tec) => {
+          return (
+            <li key={tec.id}>
+              <div>
+                {tec.icon}
+                <span>{tec.name}</span>
+              </div>
+            </li>
+          );
+        })}
+      </ul>
+    </>
+  );
 }

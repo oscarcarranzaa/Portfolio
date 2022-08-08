@@ -11,11 +11,6 @@ export function Headjs({ title }) {
         content="Bienvenido a mi portfolio donde podrás conocer un poco más de mí"
       />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <script
-        async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9647981077416807"
-        crossOrigin="anonymous"
-      ></script>
     </Head>
   );
 }

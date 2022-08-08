@@ -1,5 +1,14 @@
-export function CSS3 () {
-    return (
-        <svg title='css' fill="#3492CB" viewBox="0 0 50 50" width="30px" height="30px"><path fill-rule="evenodd" d="M 42 6 L 39 40 L 25 44 L 11 40 L 8 6 Z M 16.800781 28 L 20.800781 28 L 20.898438 30.5 L 25 31.898438 L 29.101563 30.5 L 29.398438 26 L 20.601563 26 L 20.398438 22 L 29.601563 22 L 29.898438 18 L 16.101563 18 L 15.800781 14 L 34.101563 14 L 33.601563 22 L 32.898438 33.5 L 25 36.101563 L 17.101563 33.5 Z"/></svg>
-    )
-}
+const CssIcon = ({ size, fill }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 50 50"
+    width={size}
+    height={size}
+    fillRule="evenodd"
+    fill={fill}
+  >
+    <path d="m42 6-3 34-14 4-14-4L8 6ZM16.8 28h4l.098 2.5L25 31.898l4.102-1.398.296-4.5h-8.796l-.204-4h9.204l.296-4H16.102l-.301-4h18.3l-.5 8-.703 11.5L25 36.102 17.102 33.5Z" />
+  </svg>
+)
+
+export default CssIcon

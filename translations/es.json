@@ -2,10 +2,10 @@
     "NAVEGATION_LINKS": [{
         "ID": 1,
         "NAME": "Acerca de mí",
-        "PATH": "about"
+        "PATH": "home"
     },{
         "ID": 2,
-        "NAME": "Proyectos",
+        "NAME": "Proyecto",
         "PATH": "projects"
     },{
         "ID": 3,
@@ -24,8 +24,11 @@
     "CONTACT": "Contacto",
     "FRONT-END_DEVELOPER": "Desarrollador Front-End",
     "SOCIAL_MEDIA": "Redes Sociales",
-    "TEXT_ME": "Hola soy desarrollador Front-End, actualmente estudiando ING. en sistemas en la",
-    "UNAH": "Universidad Nacional Autónoma de Honduras",
+    "CREATED_WITH": "Creado con",
+    "SOURCE_CODE": "Código fuente",
+    "PROJECTS": "PROYECTO",
+    "TECHNOLOGY_DESC": "Estas son las tecnologias que suelo usar en mis proyectos.",
+    "TEXT_ME": "Hola 👋 soy una persona apasionada por las tecnologías, cuento con un amplio conocimiento con tecnologías web gracias a que soy una persona autodidacta",
     "ABOUT_DESCRIPTION": "Hola, desarrollo productos digitales mediante el uso de las últimas tecnologías, considerando cual sea la mejor para la solución. Enfocado en el desarrollo Front-End y un poco al Back-End. Siempre dispuesto a enfrentarme con nuevos retos y así encontrar la solución a los problemas, si estas interesado puedes contactarme y asi formar parrte de tu equipo.",
     "TIME_LINE": [{
         "ID": 1,

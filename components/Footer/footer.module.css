@@ -1,0 +1,50 @@
+.FooterWrapper{
+  background-color: rgb(219, 219, 219);
+}
+.footerName{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+.footerCont{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.FooterItem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.FooterName{
+  font-weight: 600;
+}
+.gmail{
+  display: flex;
+}
+.gmail > svg {
+  margin-right: 5px;
+}
+.contactCont{
+  margin: 0px 0px;
+
+}
+.footerWhatsapp > span{
+  display: flex;
+  justify-content: center;
+}
+.SocialMediaCOnt{
+  margin-left:20px;
+}
+.footerWhatsapp > span > svg{
+  margin-right: 5px;
+}
+@media  screen and (max-width: 768px){
+  .footerCont{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .footerWhatsapp > span{
+    justify-content: center;
+  }
+}
