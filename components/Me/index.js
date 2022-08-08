@@ -1,7 +1,7 @@
 import { useTranslations } from "../../context/i18nContext";
-import CssIcon from "../Icons/Css3";
+import CssIcon from "../Icons/Css";
 import ExpressIcon from "../Icons/Express";
-import HtmlIcon from "../Icons/Html5";
+import HtmlIcon from "../Icons/Html";
 import JavascriptIcon from "../Icons/Javascript";
 import Mongodb from "../Icons/Mongodb";
 import NextjsIcon from "../Icons/Nextjs";

@@ -1,6 +1,5 @@
 import GmailSVG from "../Icons/Gmail";
 import PhoneSVG from "../Icons/Phone";
-import WhatsappSolid from "../Icons/Whatsapp";
 import { SocialMedia } from "../SocialMedia";
 import styles from "./footer.module.css";
 import { useTranslations } from "../../context/i18nContext";
